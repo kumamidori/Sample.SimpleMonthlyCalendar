@@ -1,0 +1,19 @@
+{
+    "name": "sample/simplemonthlycalendar",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "license": "Public Domain",
+    "autoload":{
+        "psr-4":{
+            "Sample\\SimpleMonthlyCalendar\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "piece/stagehand-testrunner": "~4.1@dev"
+    }
+}
